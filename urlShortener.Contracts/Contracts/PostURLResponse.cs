@@ -1,6 +1,6 @@
 ﻿namespace urlShortener.Contracts.Contracts;
 
-public record PostURLRequestContract
+public record PostURLResponse
 {
 
 }
