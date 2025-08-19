@@ -5,5 +5,8 @@
 /// </summary>
 public record PostURLRequest
 {
+    /// <summary>
+    /// URL to be shortened
+    /// </summary>
     string OriginalUrl { get; init; } = string.Empty;
 }
