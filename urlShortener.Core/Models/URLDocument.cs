@@ -1,6 +1,8 @@
 ﻿namespace urlShortener.Core.Models;
 
-public class URLDocument
+public record URLDocument
 {
+    public required string originalUrl;
 
+    public required string shortenedUrl;
 }
