@@ -10,14 +10,14 @@ public interface IURLRepository
     /// </summary>
     /// <param name="originalUrl"></param>
     /// <returns></returns>
-    public Task<string> GetShortenedURLAsync(string originalUrl);
+    public Task<URLDocument> GetShortenedURLAsync(string originalUrl);
 
     /// <summary>
     /// Fetches repository for the original url with shortend version as key.
     /// </summary>
     /// <param name="shortenedUrl"></param>
     /// <returns></returns>
-    public Task<string> GetOriginalURLAsync(string shortenedUrl);
+    public Task<URLDocument> GetOriginalURLAsync(string shortenedUrl);
 
     /// <summary>
     /// Uploads a document from the specified URL to the system.
