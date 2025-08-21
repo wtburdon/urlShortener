@@ -33,3 +33,4 @@ C:\Users\billy\source\repos\urlShortener\urlShortener\obj\Debug\net8.0\refint\ur
 C:\Users\billy\source\repos\urlShortener\urlShortener\obj\Debug\net8.0\urlShortener.pdb
 C:\Users\billy\source\repos\urlShortener\urlShortener\obj\Debug\net8.0\urlShortener.genruntimeconfig.cache
 C:\Users\billy\source\repos\urlShortener\urlShortener\obj\Debug\net8.0\ref\urlShortener.dll
+C:\Users\billy\source\repos\urlShortener\urlShortener\obj\Debug\net8.0\urlShortener.sourcelink.json

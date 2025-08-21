@@ -1,0 +1,9 @@
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.csproj.AssemblyReference.cache
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.AssemblyInfoInputs.cache
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.AssemblyInfo.cs
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.csproj.CoreCompileInputs.cache
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\billy\source\repos\urlShortener\urlShortener.Core\obj\Debug\net8.0\urlShortener.Core.sourcelink.json
