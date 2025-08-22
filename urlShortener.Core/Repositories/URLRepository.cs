@@ -3,6 +3,12 @@
 /// <inheritdoc/>
 public class URLRepository: IURLRepository
 {
+    private readonly Container container;
+    public URLRepository(Container container1)
+    {
+        container = container1;
+    }
+
     public Task<URLDocument> GetShortenedURLAsync(string originalUrl)
     {
         throw new NotImplementedException();
