@@ -25,5 +25,5 @@ public interface IURLRepository
     /// <param name="originalUrl">Original URL</param>
     /// <param name="shortenedUrl">Shortened URL</param>
     /// <returns>Nothing.</returns>
-    public Task UploadURLDocument(string originalUrl, string shortenedUrl);
+    public Task UploadURLDocumentAsync(string originalUrl, string shortenedUrl);
 }

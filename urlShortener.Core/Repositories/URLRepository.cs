@@ -9,18 +9,22 @@ public class URLRepository: IURLRepository
         container = container1;
     }
 
-    public Task<URLDocument> GetShortenedURLAsync(string originalUrl)
+    public async Task<URLDocument> GetShortenedURLAsync(string originalUrl)
     {
         throw new NotImplementedException();
     }
 
-    public Task<URLDocument> GetOriginalURLAsync(string shortenedUrl)
+    public async Task<URLDocument> GetOriginalURLAsync(string shortenedUrl)
     {
         throw new NotImplementedException();
     }
 
-    public Task UploadURLDocument(string originalUrl, string shortenedUrl)
+    public async Task UploadURLDocumentAsync(string originalUrl, string shortenedUrl)
     {
-        throw new NotImplementedException();
+        await container.UpsertItemAsync<URLDocument>(new URLDocument
+        {
+            originalUrl = originalUrl,
+            shortenedUrl = shortenedUrl
+        });
     }
 }
