@@ -6,13 +6,6 @@
 public interface IURLRepository
 {
     /// <summary>
-    /// Fetches repository for the shortend version of a URL
-    /// </summary>
-    /// <param name="originalUrl"></param>
-    /// <returns></returns>
-    public Task<URLDocument> GetShortenedURLAsync(string originalUrl);
-
-    /// <summary>
     /// Fetches repository for the original url with shortend version as key.
     /// </summary>
     /// <param name="shortenedUrl"></param>
